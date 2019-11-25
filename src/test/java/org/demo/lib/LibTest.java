@@ -9,6 +9,7 @@ public class LibTest {
 
     @Test
     public void shouldAnswerWithTrue() {
+        assertTrue(true);
         assertTrue(false);
     }
 
