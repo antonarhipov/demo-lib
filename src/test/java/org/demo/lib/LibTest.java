@@ -13,6 +13,11 @@ public class LibTest {
     }
 
     @Test
+    public void shouldAnswerWithTrue2() {
+        assertTrue(true);
+    }
+
+    @Test
     public void shouldBeFoo() {
         assertEquals("foo", new Lib().foo());
     }
