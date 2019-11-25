@@ -2,14 +2,18 @@ package org.demo.lib;
 
 public class Lib {
     public String foo() {
-        return "foo";
+        return Util.FOO;
     }
 
     public int one() {
-        return 1;
+        return Util.ONE;
     }
 
     public String echo(String s) {
         return s;
+    }
+
+    public String baz(){
+        return "";
     }
 }
