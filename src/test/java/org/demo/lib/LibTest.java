@@ -29,7 +29,7 @@ public class LibTest {
 
     @Test
     public void shouldEcho() {
-        String s = "hello";
+        String s = "blah";
         assertEquals(s, new Lib().echo(s));
     }
 
